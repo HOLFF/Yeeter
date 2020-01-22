@@ -69,7 +69,6 @@ public class fxml_loader extends Application {
 
 
     public static void main(String[] args) {
-
         launch(args);
 
     }
