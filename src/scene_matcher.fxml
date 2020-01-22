@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.ImageView?>
@@ -70,6 +71,43 @@
       <VBox prefHeight="420.0" prefWidth="150.0">
          <HBox.margin>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-         </HBox.margin></VBox>
+         </HBox.margin>
+         <children>
+            <Text fx:id="name_other" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="130.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="age_other" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthdate" wrappingWidth="130.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="insta_other" strokeType="OUTSIDE" strokeWidth="0.0" text="Insta" wrappingWidth="130.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="snap_other" strokeType="OUTSIDE" strokeWidth="0.0" text="Snap" wrappingWidth="130.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="number_other" strokeType="OUTSIDE" strokeWidth="0.0" text="Number" wrappingWidth="130.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="next_prof" mnemonicParsing="false" prefHeight="65.0" prefWidth="130.0" text="Next">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="last_prof" mnemonicParsing="false" prefHeight="65.0" prefWidth="130.0" text="Previous">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children></VBox>
    </children>
 </HBox>
